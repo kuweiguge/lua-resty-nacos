@@ -1,8 +1,8 @@
 package = "lua-resty-nacos"
-version = "0.01"
+version = "0.02"
 source = {
    url = "git://github.com/kuweiguge/lua-resty-nacos",
-   tag = "v0.01"
+   tag = "v0.02"
 }
 description = {
    summary = "Lua Nacos Open API Client for OpenResty / ngx_lua.",

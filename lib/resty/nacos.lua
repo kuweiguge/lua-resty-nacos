@@ -1,6 +1,6 @@
 
 local _M = { _VERSION = '0.0.1'}
-local httpUtils = require "util.httpUtils"
+local httpUtils = require "resty.httpUtils"
 
 local default_domain = "http://127.0.0.1:8848"
 local default_namespace = "public"

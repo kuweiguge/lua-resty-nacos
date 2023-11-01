@@ -1,6 +1,4 @@
-![GitHub Repo stars](https://img.shields.io/github/stars/kuweiguge/lua-resty-nacos)
-
-# lua-resty-http
+# lua-resty-http [中文](https://github.com/kuweiguge/lua-resty-nacos/blob/main/README-zh.markdown)
 Lua [Nacos Open API](https://nacos.io/zh-cn/docs/open-api.html) Client for [OpenResty](http://openresty.org/en/) / [ngx_lua](https://github.com/openresty/lua-nginx-module).
 
 # Status
@@ -38,6 +36,11 @@ Beta version
     - Modify Namespace
     - Delete Namespace
 # Synopsis
+
+```shell
+opm get kuweiguge/lua-resty-nacos
+```
+
 ```conf
 lua_package_path "/path/to/lua-resty-nacos/lib/?.lua;;";
 

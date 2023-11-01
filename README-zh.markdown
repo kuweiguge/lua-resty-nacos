@@ -1,4 +1,4 @@
-# lua-resty-http
+# lua-resty-http [English](https://github.com/kuweiguge/lua-resty-nacos/blob/main/README.markdown)
 Lua [Nacos Open API](https://nacos.io/zh-cn/docs/open-api.html) Client for [OpenResty](http://openresty.org/en/) / [ngx_lua](https://github.com/openresty/lua-nginx-module).
 
 # Status
@@ -36,6 +36,11 @@ Beta version
     - 修改命名空间
     - 删除命名空间
 # Synopsis
+```shell
+opm get kuweiguge/lua-resty-nacos
+```
+
+
 ```conf
 lua_package_path "/path/to/lua-resty-nacos/lib/?.lua;;";
 
